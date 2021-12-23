@@ -20,6 +20,9 @@ a:hover{
 }
 
 @media only screen and (max-width: 900px) {
+    .areas{
+        text-align: center;
+    }
     .contact{width:100%; }
     .areas{width:100%; }
     .about{width:100%; }
@@ -45,6 +48,18 @@ a:hover{
   }
 }
 @media only screen and (min-width: 900px) {
+    .column{
+        display: flex;
+        flex-direction: column;
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+    }
+    .element{
+        width:47%;
+        margin-left:1%
+    }
     .contact{width:90%; margin-left:5%}
     .areas{width:90%; margin-left:5%}
     .about{width:90%; margin-left:5%}
