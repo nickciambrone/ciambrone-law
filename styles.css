@@ -1,0 +1,186 @@
+
+a { text-decoration: none } 
+a { opacity:90%;  }
+.header-link{
+    color:white
+}
+a:hover{ 
+    color: white; 
+    opacity:100%;     
+    text-decoration:none; 
+
+} 
+.header-link-div{
+    text-align: center;
+
+}
+.header{
+    background-color: rgb(0, 0, 0, 0.8);
+
+}
+
+@media only screen and (max-width: 900px) {
+    .contact{width:100%; }
+    .areas{width:100%; }
+    .about{width:100%; }
+    .frank{width:100%; }
+    .home{width:100%; }
+    #logo-container {
+        height: 135px;
+        text-align: center;
+      }
+      .white {
+        color: black;
+      }
+      .header-link-container {
+        height: 60px;
+        line-height: 60px;
+      
+      }
+  .header {
+    display: flex;
+    flex-direction: column;
+  
+  
+  }
+}
+@media only screen and (min-width: 900px) {
+    .contact{width:90%; margin-left:5%}
+    .areas{width:90%; margin-left:5%}
+    .about{width:90%; margin-left:5%}
+    .frank{width:90%; margin-left:5%}
+    .home{width:90%; margin-left:5%}
+  .header {
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+
+   
+    
+  }
+  #logo-container {
+    width: 28%;
+  }
+  #home-container {
+    width: 8%;
+    margin-left: 7%;
+  }
+  #francis-container {
+    width: 16%;
+  }
+  #about-container {
+    width: 9%;
+  }
+  #areas-container {
+    width: 14%;
+  }
+  #contact-container {
+    width: 12%;
+  }
+  .white{
+      color:white
+  }
+  .header-link {
+    height: 90px;
+    line-height: 90px;
+    margin-top: 15px;
+
+  
+  }
+  .header-link-div{
+    margin-top:15px;
+
+}
+  .header-link:hover {
+    cursor: pointer;
+    color: #4295d6;
+    
+  }
+  .header-link-div:hover{
+    border-bottom: 1px solid #4295d6;
+}
+
+}
+.header {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+
+}
+.about{
+    background-color: rgb(0, 0, 0, 0.8);
+    color:white;
+
+    margin-top:10px;
+    overflow-y: scroll;
+    padding:8px
+}
+body{
+    height:640px;
+    background-image: url('http://www.ciambronelaw.com/wp-content/uploads/2015/04/550378A.jpg');
+}
+.areas{
+    background-color: rgb(0, 0, 0, 0.8);
+    color:white;
+
+    margin-top:10px;
+    overflow-y: scroll;
+    padding:8px;
+}
+.contact{
+    background-color: rgb(0, 0, 0, 0.8);
+    color:white;
+
+    margin-top:10px;
+    overflow-y: scroll;
+    padding:15px
+    
+
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+input[type=submit] {
+  background-color: #4294d6;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.frank{
+    background-color: rgb(0, 0, 0, 0.8);
+    color:white;
+   
+    margin-top:10px;
+    overflow-y: scroll;
+    padding:8px;
+}
