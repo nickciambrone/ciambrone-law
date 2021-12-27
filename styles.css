@@ -24,6 +24,8 @@ a:hover{
         text-align: center;
     }
     .contact{width:100%; }
+    .home{width:100%; }
+
     .areas{width:100%; }
     .about{width:100%; }
     .frank{width:100%; }
@@ -61,6 +63,8 @@ a:hover{
         margin-left:1%
     }
     .contact{width:90%; margin-left:5%}
+    .home{width:90%; margin-left:5%}
+
     .areas{width:90%; margin-left:5%}
     .about{width:90%; margin-left:5%}
     .frank{width:90%; margin-left:5%}
@@ -111,9 +115,7 @@ a:hover{
     color: #4295d6;
     
   }
-  .header-link-div:hover{
-    border-bottom: 1px solid #4295d6;
-}
+
 
 }
 .header {
@@ -149,6 +151,16 @@ body{
     overflow-y: scroll;
     padding:15px
     
+
+}
+.home{
+  background-color: rgb(0, 0, 0, 0.8);
+  color:white;
+
+  margin-top:10px;
+  overflow-y: scroll;
+  padding:15px
+  
 
 }
 body {font-family: Arial, Helvetica, sans-serif;}
