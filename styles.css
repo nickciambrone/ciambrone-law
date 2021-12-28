@@ -50,6 +50,14 @@ a:hover{
   }
 }
 @media only screen and (min-width: 900px) {
+  #frank-content{
+    display:flex;
+    flex-direction: row;
+  }
+  #eduAndBar{
+    width:30%;
+    margin-right:4px
+  }
     .column{
         display: flex;
         flex-direction: column;
@@ -210,4 +218,10 @@ input[type=submit] {
     margin-top:10px;
     overflow-y: scroll;
     padding:8px;
+}
+
+@media only screen and (max-width: 980px) and (min-width: 900px) {
+  #francis-container{
+    font-size: 12px;
+  }
 }
