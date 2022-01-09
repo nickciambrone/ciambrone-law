@@ -143,7 +143,7 @@ body{
     height:870px;
     background-repeat: repeat;
     background-size: cover;
-    transition: background-image 2s;
+    transition: background-image 1.5s;
 }
 
 
